@@ -2,7 +2,7 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 
 function Welcome() {
   return (
-    <Container fluid={true} className="bg-dark">
+    <Container fluid={true} className="bg-dark shadow-lg">
       <Row>
         <Col>
           <Alert variant="light" className="text-center px-4 mb-0">
