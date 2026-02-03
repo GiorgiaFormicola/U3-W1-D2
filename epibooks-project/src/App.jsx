@@ -11,7 +11,7 @@ function App() {
         <MyNav></MyNav>
         <Welcome></Welcome>
       </header>
-      <main className="min-vh-100 bg-dark py-4">
+      <main className="min-vh-100 bg-dark py-4 px-3 px-sm-0">
         <AllTheBooks></AllTheBooks>
       </main>
       <footer className="sticky-bottom">
