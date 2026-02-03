@@ -13,7 +13,7 @@ function AllTheBooks() {
                 <Card.Body className="d-flex flex-column">
                   <Card.Title className="flex-grow-1">{book.title}</Card.Title>
                   <Card.Text className="d-flex justify-content-between align-items-baseline">
-                    <p className="my-0">$ {book.price}</p>
+                    $ {book.price}
                     <Badge bg="secondary" text="light" className="w-25 py-2">
                       {book.category}
                     </Badge>
